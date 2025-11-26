@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pomodoro-cli"
+version = "0.1.1"
+description = "A lightweight terminal Pomodoro timer"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Renan", email = "renanmaziero07@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["pomodoro", "cli", "timer", "python"]
+
+[project.urls]
+"Homepage" = "https://github.com/maninthebox07/pomodoro-cli-ascii"
+
+[project.scripts]
+pomodoro-cli = "pomodoro_cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pomodoro_cli*"]
+
+[tool.setuptools.package-data]
+"pomodoro_cli" = ["sounds/*"]

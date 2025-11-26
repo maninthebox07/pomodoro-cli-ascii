@@ -1,4 +1,4 @@
-<p align="center"> <img src="assets/banner.png" alt="Pomodoro banner" width="800" /> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/maninthebox07/pomodoro-cli-ascii/main/assets/banner.png" alt="Pomodoro banner" style="max-width:100%;height:auto;" /> </p>
 
 <p align="center"><strong>Pomodoro</strong> — a lightweight terminal Pomodoro timer (Python 3.10+, Pygame optional).</p>
 

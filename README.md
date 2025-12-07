@@ -67,7 +67,3 @@ Contributing
 - Bug reports, suggestions, and PRs are welcome.
 - Keep changes small and document any behavior changes.
 - Follow Python conventions and keep compatibility with Python 3.10+.
-
-License
-- Add your preferred license here (e.g., MIT) or remove this section if not needed.
-```

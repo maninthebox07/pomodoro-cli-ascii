@@ -4,9 +4,9 @@ Contains the timer loop and user interaction logic for starting and
 configuring Pomodoro and break timers.
 '''
 from time import sleep
-from .utils import clear_screen, play_sound
-from .ascii_render import print_ascii_time, time_finished
-from .style import YELLOW, BLUE, CYAN, GREEN, RED, MAGENTA, RESET
+from utils import clear_screen, play_sound
+from ascii_render import print_ascii_time, time_finished
+from style import YELLOW, BLUE, CYAN, GREEN, RED, MAGENTA, RESET
 
 
 def timer(total_minutes, color):

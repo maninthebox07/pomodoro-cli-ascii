@@ -4,10 +4,10 @@ This module provides the console entrypoint `pomodoro-cli` (configured in pyproj
 It mirrors the behavior of the original top-level main.py but uses package-relative imports.
 """
 from time import sleep
-from .utils import clear_screen
-from .ascii_render import title_screen
-from .app import run_pomodoro, run_short_break, run_long_break
-from .style import RED, GREEN, RESET
+from utils import clear_screen
+from ascii_render import title_screen
+from app import run_pomodoro, run_short_break, run_long_break
+from style import RED, GREEN, RESET
 
 
 def main():

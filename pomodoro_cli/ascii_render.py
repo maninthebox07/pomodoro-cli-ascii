@@ -3,8 +3,8 @@
 High-level rendering helpers that use the digit definitions in ascii_digits.py
 to print a large, stylized time and other screens.
 '''
-from .ascii_digits import ascii_digits, calculate_max_width, standardize_width
-from .style import GREEN, RED, BOLD, RESET
+from ascii_digits import ascii_digits, calculate_max_width, standardize_width
+from style import GREEN, RED, BOLD, RESET
 
 
 def title_screen():

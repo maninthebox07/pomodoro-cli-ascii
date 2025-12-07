@@ -33,10 +33,12 @@ Installation (recommended)
   .venv\Scripts\activate        # Windows
 - Install Pygame (for sound):
   pip install pygame
+- Install Pomodoro:
+  pip install pomodoro-cli-ascii
 
 Usage
 - Start the app:
-  python main.py
+  pomodoro-ascii
 - Menu options:
   1 — Pomodoro (default 25 minutes)
   2 — Short Break (default 5 minutes)

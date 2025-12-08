@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/maninthebox07/pomodoro-cli-ascii/main/assets/banner.png" alt="Pomodoro banner" style="max-width:100%;height:auto;" /> </p>
 
-
+https://github.com/user-attachments/assets/7b8ae736-a828-4d7c-8e50-7d8662842eee
 
 <p align="center"><strong>Pomodoro</strong> — a lightweight terminal Pomodoro timer (Python 3.10+, Pygame optional).</p>
 

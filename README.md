@@ -1,13 +1,11 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/maninthebox07/pomodoro-cli-ascii/main/assets/banner.png" alt="Pomodoro banner" style="max-width:100%;height:auto;" /> </p>
 
 <p align="center">
-  <video src="https://raw.githubusercontent.com/maninthebox07/pomodoro-cli-ascii/main/assets/demo.mp4"
-         controls
-         autoplay
-         loop
-         muted
-         style="max-width:100%; border-radius: 10px;">
-  </video>
+  <a href="https://raw.githubusercontent.com/maninthebox07/pomodoro-cli-ascii/main/assets/demo.mp4">
+    <img src="https://raw.githubusercontent.com/maninthebox07/pomodoro-cli-ascii/main/assets/banner.png" width="600" />
+    <br>
+    <b>▶ Demonstration video</b>
+  </a>
 </p>
 
 <p align="center"><strong>Pomodoro</strong> — a lightweight terminal Pomodoro timer (Python 3.10+, Pygame optional).</p>
